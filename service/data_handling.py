@@ -15,7 +15,7 @@ class DataHandler:
             return
 
         filepath = os.path.join(self.output_dir, filename)
-        fields = ['price', 'name', 'url']
+        fields = ['name', 'price', 'url']
 
         try:
             with open(filepath, 'w', newline='', encoding='utf-8') as output_file:
